@@ -23,7 +23,7 @@ $(document).ready(function(){
     var screenRecording = $(this).attr('screen-recording-id')
     var sourceUrl = './img/screen_recording/' + screenRecording
     + '?autoplay=1&html5=1';
-    $("#screen-recording-video").empty().append($("<video></video>", {
+    $("#screen-recording-video").empty().append($("<iframe></iframe>", {
       'id': 'screen-recording',
       'class': 'screen-recording',
       'width': '900px',
