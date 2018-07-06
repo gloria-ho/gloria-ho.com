@@ -11,7 +11,9 @@ $(document).ready(function(){
   });
 
 
+  //
   // project preview and screen recording
+  //
   // pause the video when the modal is closed
   $(document).on('click', '.hanging-close, .modal-backdrop, .modal', function (event) {
     // remove the src so the player itself gets removed, as this is 
@@ -19,7 +21,7 @@ $(document).ready(function(){
     $("#screen-recording-video").empty();
   });
   //start playing the video whenever the trailer modal is opened
-  $(document).on('click', '.video-tile', function (event) {
+  $(document).on('click', '.video', function (event) {
     var screenRecording = $(this).attr('screen-recording-id')
     var sourceUrl = './img/screen_recording/' + screenRecording
     + '?autoplay=1&html5=1';
