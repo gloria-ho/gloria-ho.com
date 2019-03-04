@@ -1,6 +1,40 @@
 .center {
   text-align: center; }
 
+.margin-auto {
+  margin: auto; }
+
+body {
+  color: #000;
+  font-family: sans-serif; }
+
+h2 {
+  font-weight: bold; }
+
+h4 {
+  margin: 5% 10% 10%; }
+
+.demo, .github {
+  margin: 10%; }
+
+.mb-4, .navbar {
+  margin-bottom: 0px !important; }
+
+.navbar {
+  box-shadow: none;
+  -webkit-box-shadow: none; }
+
+.welcome {
+  background-color: #e0e0e0;
+  padding: 5rem .5rem; }
+
+.hello {
+  font-family: "permanent marker", cursive; }
+
+.name {
+  font-family: "rock salt", cursive;
+  color: #407; }
+
 /* 
  * animated nav icon
  */
@@ -71,13 +105,6 @@
   left: 50%; }
 
 /*
- *
- */
-body {
-  color: #000;
-  font-family: sans-serif; }
-
-/*
  * modal and project pop up
  */
 #project .modal-dialog {
@@ -92,12 +119,9 @@ body {
   z-index: 9001; }
 
 .video-tile {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding-top: 20px; }
-
-.video-tile:hover {
-  cursor: pointer; }
+  margin-top: 5%;
+  border: 1px dashed #000;
+  padding: 2%; }
 
 .scale-media {
   padding-bottom: 56.25%;

@@ -1,10 +1,59 @@
 $primary-color: #000;
-
-
+$secondary-color: #407;
+$secondary-bg: #e0e0e0;
+$primary-font: sans-serif;
+$secondary-font: 'permanent marker', cursive;
+$tertiary-font: 'rock salt', cursive;
+$primary-border: 1px dashed #000;
 
 .center {
   text-align: center;
 }
+
+.margin-auto {
+  margin: auto;
+}
+
+body {
+  color: $primary-color;
+  font-family: $primary-font;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+h4 {
+  margin: 5% 10% 10%;
+}
+
+.demo, .github {
+  margin: 10%;
+}
+
+.mb-4, .navbar {
+  margin-bottom: 0px!important;
+}
+
+.navbar {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.welcome {
+  background-color: $secondary-bg;
+  padding: 5rem .5rem;
+}
+
+.hello {
+  font-family: $secondary-font;
+}
+
+.name {
+  font-family: $tertiary-font;
+  color: $secondary-color;
+}
+
 
 /* 
  * animated nav icon
@@ -45,7 +94,7 @@ $primary-color: #000;
 }
 
 .animated-nav-icon span {
-    background: #000;
+  background: #000;
 }
 
 .animated-nav-icon span:nth-child(1) {
@@ -87,15 +136,6 @@ $primary-color: #000;
 }
 
 /*
- *
- */
-
-body {
-  color: $primary-color;
-  font-family: sans-serif;
-}
-
-/*
  * modal and project pop up
  */
 #project .modal-dialog {
@@ -112,13 +152,9 @@ body {
 }
 
 .video-tile {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding-top: 20px;
-}
-
-.video-tile:hover {
-  cursor: pointer;
+  margin-top: 5%;
+  border: $primary-border;
+  padding: 2%;
 }
 
 .scale-media {
